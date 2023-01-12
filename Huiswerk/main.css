@@ -1,0 +1,86 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #abdbe3;
+  color: white;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #031d38;
+  height: 100px;
+  text-align: center;
+  padding: 5px;
+}
+
+ul a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  padding: 12px;
+  border: 2px solid #063970;
+  background-color: #063970;
+}
+
+li:hover{
+  background-color: #1e81b0;
+  border: 2px solid #1e81b0;
+}
+
+div{
+  text-align: center;
+}
+
+table{
+  background-color: #76b5c5;
+  border: 2px solid #154c79;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #abdbe3;
+  color: #031d38;
+  border: none;
+}
+
+textarea{
+  height: 120px;
+  padding: 5px 4px;
+  resize: none;
+}
+
+button:active{
+  background-color: #1e81b0;
+  color: white;
+}
+
+form{
+  background-color: #76b5c5;
+  border: 2px solid #154c79;
+  width: 400px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color: #063970;
+  height: 120px;
+  margin-top: auto;
+  text-align: center;
+  padding: 20px;
+}
